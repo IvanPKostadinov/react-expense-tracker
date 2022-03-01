@@ -2,7 +2,8 @@ import React from 'react'; // technically we don't need this now
 
 import Expenses from './components/Expenses/Expenses';
 
-function App() {
+// function App() {   // -> Alternative syntax
+const App = () => {
   const expenses = [
     {
       id: 'e1',
