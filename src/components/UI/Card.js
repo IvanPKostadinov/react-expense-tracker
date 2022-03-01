@@ -1,4 +1,4 @@
-import React from 'react';  // technically we don't need this now
+import React from 'react'; // technically we don't need this now
 
 import './Card.css';
 
