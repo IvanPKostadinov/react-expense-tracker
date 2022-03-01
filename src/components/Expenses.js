@@ -1,3 +1,5 @@
+import React from 'react';  // technically we don't need this now
+
 import './Expenses.css'
 import Card from './Card';
 import ExpenseItem from './ExpenseItem';
