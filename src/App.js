@@ -27,6 +27,11 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = (expense) => {
+    console.log('in App.js');
+    console.log(expense);
+  }
+
   // // !!! Alternative to the JSX code below: !!!
   // // React.createElement('type of element', {attributes}, content)
   // return React.createElement(
@@ -40,7 +45,7 @@ const App = () => {
     // This code is called JSX
     <div>
       <h2>Let's get started!</h2>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
   );
